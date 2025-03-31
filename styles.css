@@ -1,0 +1,21 @@
+body{
+ background-image: url(Resources/bg-intro-desktop.png);
+ font-family: 'Poppins', sans-serif !important;
+}
+
+.form-price_header{
+    background-color: #5d54a3 !important;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.btn-success{
+    background-color: #37cc8a !important;
+    border-color: #37cc8a !important;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+}
+.form-form{
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+}
+.invalid-feedback{
+    color: #ff7978 !important;
+}

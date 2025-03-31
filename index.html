@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Form</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="styles.css?v=3">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container mt-5 g-5">
+        <div class="row">
+            <div class="col-12 col-md-6 d-flex justify-content-center flex-column text-light mb-4">
+                <h1 class="fw-bold">Learn to code by watching others</h1>
+                <span>See how experienced developers solve problems in real-time.</span>
+                <span>Watching scripted tutorials is great, but understanding how developers think is invaluable.</span>
+            </div>
+            <div class="col-12 col-md-6 d-flex justify-content-center flex-column ">
+                <span class="form-price_header p-4 text-center rounded fw-bold text-light">Try it free 7 days <span class="fw-light text-light">the $20/mo. thereafter</span></span>
+                <div class="form-form bg-light rounded p-4 mt-3 d-flex flex-column">
+                    <form class="row g-3 needs-validation d-flex justify-content-center flex-column align-items-center" novalidate>
+                        <div class="col-10 m-4">
+                          <input type="text" class="form-control" id="validationCustom01" value="" placeholder="First Name" required>
+                          <div class="invalid-feedback text-end fst-italic">
+                            First Name cannot be empty
+                          </div>
+                        </div>
+                        <div class="col-10 m-4">
+                          <input type="text" class="form-control" id="validationCustom02" value="" placeholder="Last Name" required>
+                          <div class="invalid-feedback text-end fst-italic">
+                            Last Name cannot be empty
+                          </div>
+                        </div>
+                        <div class="col-10 m-4">
+                          <div class="input-group has-validation">
+                            <input type="email" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" placeholder="Email Address" required>
+                            <div class="invalid-feedback text-end fst-italic">
+                              Looks like this is not an email.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-10 m-4">
+                          <input type="password" class="form-control" id="validationCustom03" placeholder="Password" required>
+                          <div class="invalid-feedback text-end fst-italic">
+                            Password cannot be empty
+                          </div>
+                        </div>
+                        <div class="col-10 m-4 d-grid">
+                          <button class="btn btn-success p-3" type="submit">CLAIM YOUR FREE TRIAL</button>
+                        </div>
+                      </form>
+                      <span class="text-center text-body-tertiary">By clicking the button, you are agreeing to our <span class="text-danger">Terms and Services</span></span>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+    <script src="app.js?v=1"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
